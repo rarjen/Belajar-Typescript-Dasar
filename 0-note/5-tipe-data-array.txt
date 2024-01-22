@@ -1,0 +1,11 @@
+Tipe Data Array
+- Tipe data array di TypeScript juga sama seperti di JavaScript, cara pembuatannya dan penggunaannya
+- Di TS tipe data Array bisa menggunakan tanda TipeData[] atau Array<TipeData>
+
+Read Only Data
+- Di TypeScript, kita bisa membuat Array dengan tipe readonly (tidak bisa diubah lagi) dengan 
+  menggunakan tipe data ReadonlyArray<TipeData>
+
+Tuple 
+- Tuple adalah tipe data Array, yang panjang array dan juga tipe data di tiap index sudah ditentukan
+- Pada kasus tuple bersifat read only (tidak bisa diubah), kita bisa tambahkan kata kunci readonly

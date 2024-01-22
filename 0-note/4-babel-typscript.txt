@@ -1,0 +1,16 @@
+Babel typecript
+
+- Untuk menjalankan unit test, kita menggunakan Jest dan Babel
+- Banyak programmer TypeScript yang mengeluh ketika proses development, menggunakan TypeScript lebih 
+  lambat karena harus melakukan kompilasi terlebih dahulu
+- Oleh karena itu, @babel/typescript melakukan cara kompilasi nya dengan cara menghapus seluruh kode 
+  TypeScript dan menjadikan kode JavaScript, hal ini memang lucu, tapi inilah kenyataannya
+- Oleh karena itu, error TypeScript yang sering harusnya terjadi di Unit Test kadang tidak terjadi 
+  karena kode TypeScript dihapus oleh Babel
+- Oleh karena itu, kita harus secara regular melakukan pengecekan menggunakan perintah : npx tsc
+- Untuk memastikan tidak ada kode TypeScript kita yang bermasalah
+
+
+TypeScript Compiler
+- Untuk menjalankan TypeScript Compiler secara terus menerus, kita juga bisa menggunakan perintah :
+  npx tsc --watch -> akan secara terus melakukan pengecekan dan compile saat kode ada perubahan

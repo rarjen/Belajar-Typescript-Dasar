@@ -1,0 +1,7 @@
+Tipe Data Union
+- Seperti yang sudah kita tahu, JavaScript sebenarnya bisa menyimpan berbagai jenis tipe data di variabel yang sama
+- Namun di TypeScript, hal itu dilarang karena praktek yang buruk
+- Pada kasus jika kita ingin membuat variabel yang bisa berubah bentuk tipe data, kita bisa memberi tahunya 
+  menggunakan union type
+- Secara otomatis TypeScript akan membolehkan kita mengubah tipe data, namun sesuai yang sudah ditentukan 
+  di union type nya

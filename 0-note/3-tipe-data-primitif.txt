@@ -1,0 +1,13 @@
+Tipe Data Primitif
+- TypeScript menggunakan tipe data di JavaScript, sehingga semua tipe data seperti string, number, 
+  boolean otomatis didukung oleh TypeScript.
+- number, boolean, string
+
+Deklarasi Variabel
+- Karena TypeScript adalah Strongly Type Language, oleh karena itu saat kita membuat variabel, 
+  kita harus menentukan tipe data variabel nya
+- Dan jika kita sudah menentukan tipe datanya, kita tidak boleh mengubah variabel tersebut menjadi 
+  tipe data yang berbeda
+- TypeScript bisa secara otomatis mendeteksi tipe data yang sedang digunakan, tapi kita juga bisa menentukan 
+  secara eksplisit menggunakan :
+- const namaVariable : tipedata = value
