@@ -5,3 +5,9 @@ Tipe Data Union
   menggunakan union type
 - Secara otomatis TypeScript akan membolehkan kita mengubah tipe data, namun sesuai yang sudah ditentukan 
   di union type nya
+
+
+Menggunakan Union Type
+- Saat kita membuat Union Type, kita perlu berhati-hati ketika memanggil method terhadap variabel tersebut
+- Hal ini karena tipe datanya bisa berubah, oleh karena itu ada baiknya kita melakukan pengecekan 
+  tipe data terlebih dahulu menggunakan typeof

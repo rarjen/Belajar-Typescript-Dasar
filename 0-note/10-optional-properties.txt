@@ -1,0 +1,5 @@
+Optional Properties
+
+- Secara default, saat kita membuat attribute di Object atau Type, maka attribute tersebut wajib diisi nilainya
+- Namun, kadang-kadang tidak semua attribute itu wajib diisi nilainya
+- Pada kasus attribute nya tidak wajib diisi, kita bisa tambahkan tanda ? untuk menandakan bahwa itu adalah optional
