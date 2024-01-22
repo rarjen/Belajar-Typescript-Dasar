@@ -1,0 +1,4 @@
+Membuat Project
+- Buat folder belajar-typecript-dasar
+- npm init
+- Buka package.json, dan tambah type module
