@@ -1,0 +1,10 @@
+Function sebagai parameter
+- Sama seperti di JavaScript, di TypeScript juga kita bisa gunakan Function sebagai parameter
+- Hal ini sudah sering kita lakukan, biasanya ketika memanggil function yang membutuhkan 
+  callback function lainnya
+- Pada TypeScript parameter yang berupa function, perlu kita beri tahu bahwa parameter 
+  tersebut adalah function
+- Kita bisa gunakan Function Interface, atau bisa langsung sebutkan pada parameter nya, 
+  jumlah parameter dan return value function yang dibutuhkan
+
+

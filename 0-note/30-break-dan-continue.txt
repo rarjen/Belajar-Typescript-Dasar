@@ -1,0 +1,3 @@
+Break dan Continue
+- Seperti di JavaScript, pada perulangan While atau Do While, kita sering menggunakan kata kunci break dan continue
+- Hal ini juga bisa dilakukan di TypeScript
